@@ -1,2 +1,2 @@
-###[Page] (http://bullgit.github.io/loading)
+###[Page] (http://bullg.it/loading)
 ------
