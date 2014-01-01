@@ -1,4 +1,4 @@
-Loading
+[Loading] (http://bullg.it/loading)
 =======
 
 Loadings by bullgitters...
