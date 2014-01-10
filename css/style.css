@@ -31,3 +31,21 @@ iframe {
     border: none;
   }
 }
+
+
+.goback {
+  padding: 0.2em;
+  position: fixed;
+  right: 0em;
+  top: 0em;    
+}
+.goback a {
+  color: #1393d5;
+  text-decoration: none;
+}
+@media all and (max-width: 40em) {
+  .goback {
+    position: static;
+    text-align: center;
+  }
+}
