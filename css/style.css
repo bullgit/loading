@@ -59,3 +59,35 @@ iframe {
     text-align: center;
   }
 }
+
+ul#nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul#nav li{
+  background: #1393d5;
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 0 1em;
+  font-size: 1.3em;
+}
+
+ul#nav li:nth-child(1) {
+  float: left;
+}
+
+ul#nav li:nth-child(2) {
+  float: right;
+}
+
+ul#nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul#nav li.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
