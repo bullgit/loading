@@ -5,7 +5,5 @@ Loadings by bullgitters...
 
 + [@bullgit] (https://twitter.com/bullgit)
 
-LICENSE
-=======
-
+### LICENSE
 MIT (c) Kaushalya Mandaliya
