@@ -1,93 +1,90 @@
 @import url(http://fonts.googleapis.com/css?family=Nunito:300);
-body {
-  background: azure;
-  font-family: 'Nunito', sans-serif;
-  padding: 2.5em 0;
+body{
+	background: azure;
+	font-family: 'Nunito', sans-serif;
+	padding: 2.5em 0;
 }
-
-h1 {
-  margin: 0;
-  text-align: center;
+h1{
+	margin:0;
+	text-align:center;
 }
-h1 .hmmm {
-  color: #1393d5;
+h1 .hmmm{
+	color:#1393d5;
 }
-h1 a {
-  color: inherit;
-  font-size: 1.1em;
-  text-decoration: none;
+h1 a{
+	color:inherit;
+	font-size:1.1em;
+	text-decoration:none;
 }
-
-.number {
-  background: #1393d5;
-  border: 0.1em solid whitesmoke;
-  font-size: 1.3em;
-  font-weight: bold;
-  color: #fff;
-  margin: 1em 0.2em 0.2em 0.2em;
-  padding: 0.5em;
-  text-align: center;
+.number{
+	background:#1393d5;
+	border:0.1em solid whitesmoke;
+	font-size:1.3em;
+	font-weight:bold;
+	color:#fff;
+	margin:1em 0.2em 0.2em 0.2em;
+	padding:0.5em;
+	text-align:center;
 }
-
-iframe {
-  border: 0.3em solid #999;
-  display: block;
-  margin: 0 auto;
-  max-width: 56em !important;
+iframe{
+	border:0.3em solid #999;
+	display:block;
+	margin:0 auto;
+	max-width:56em !important;
 }
-@media all and (max-width: 57em) {
-  iframe {
-    border: none;
-  }
+@media all and (max-width: 57em){
+	iframe{
+		border:none;
+	}
 }
-
-
-.goback {
-  background: azure;
-  padding: 0.2em;
-  position: fixed;
-  right: 0.5em;
-  top: 0.5em;  
+.goback{
+	background:azure;
+	padding:0.2em;
+	position:fixed;
+	right:0.5em;
+	top:0.5em;
 }
-.goback a {
-  color: #1393d5;
-  text-decoration: none;
+.goback a{
+	color:#1393d5;
+	text-decoration:none;
 }
-@media all and (max-width: 40em) {
-  .goback {
-    position: static;
-    text-align: center;
-  }
+@media all and (max-width: 40em){
+	.goback{
+		position:static;
+		text-align:center;
+	}
 }
-
-ul#nav {
-  margin: 0;
-  padding: 0;
+ul#nav{
+	margin:0;
+	padding:0;
+	position:fixed;
+	z-index:5;
+	top:40%;
+	width:100%;
 }
-
 ul#nav li{
-  background: #1393d5;
-  color: #fff;
-  list-style: none;
-  margin: 0;
-  padding: 0 1em;
-  font-size: 1.3em;
+	background:#1393d5;
+	color:#fff;
+	list-style:none;
+	margin:0;
+	padding:0 1em;
+	font-size:1.3em;
+	/*box-shadow*/
+	-webkit-box-shadow:0 2px 0 rgba(black, .3);
+	-moz-box-shadow:0 2px 0 rgba(black, .3);
+	box-shadow:0 2px 0 rgba(black, .3);
 }
-
-ul#nav li:nth-child(1) {
-  float: left;
+ul#nav li:nth-child(1){
+	float:left;
 }
-
-ul#nav li:nth-child(2) {
-  float: right;
+ul#nav li:nth-child(2){
+	float:right;
 }
-
-ul#nav li a {
-  text-decoration: none;
-  color: inherit;
+ul#nav li a{
+	text-decoration:none;
+	color:inherit;
 }
-
-ul#nav li.disabled {
-  opacity: 0.5;
-  cursor: default;
+ul#nav li.disabled{
+	opacity:0.5;
+	cursor:default;
 }
