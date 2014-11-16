@@ -7,5 +7,5 @@ Loadings by bullgitters...
  
 ---
 
-### LICENSE
+### [LICENSE] (https://github.com/bullgit/loading/blob/master/LICENSE)
 MIT (c) Kaushalya Mandaliya
